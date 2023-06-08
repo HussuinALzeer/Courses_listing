@@ -1,0 +1,32 @@
+.main-bodyCon{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-right: 200px;
+    padding-left: 200px;
+
+    margin-top: 10px;
+    flex-direction: column;
+
+
+    .content{
+       width: 100%; 
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+
+        .courses-side{
+            width: 80%;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .sidebar{
+            width: 20%;
+        }
+    }
+
+    
+}

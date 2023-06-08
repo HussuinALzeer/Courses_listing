@@ -1,0 +1,106 @@
+.sidebar-con{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .title{
+        width: 100%;
+        background-color:#d7d7d7;
+        margin-bottom: 20px;
+        height: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+        p{
+            margin-left: 15px;
+            text-transform: capitalize;
+            font-weight: 500;
+            font-size: 0.7rem;
+        }
+    }
+
+
+    .courses-icons-with-titles{
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        
+
+        .course-box{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            background-color: white;
+            margin-bottom: 10px;
+            padding: 1px;
+
+            .course-title{
+                text-align: left;
+                width: 80%;
+                margin-left: 10px;
+                font-size: 0.7rem;
+                font-weight: 500;
+            }
+
+            .course-icon{
+                width: 20%;
+
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        
+    }
+
+
+    .contactt{
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        
+        .contact-header{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-color:#d7d7d7;
+            height: 30px;
+
+            p{
+                margin-left: 15px;
+                text-transform: capitalize;
+                font-weight: 500;
+                font-size: 0.7rem;
+            }
+        }
+        
+      
+
+
+        .contact-info{
+            width: 100%;
+           
+            .contact-user{
+                font-size: 0.7rem;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                margin: 10px;
+                align-items: flex-start;
+            }
+            
+        }
+    }
+}
